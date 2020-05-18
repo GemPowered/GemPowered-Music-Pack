@@ -2,7 +2,7 @@
   "music.mirror_match": {
     "sounds": [
       {
-        "name": "gempowered:music/custom/mirror_match",
+        "name": "music/custom/mirror_match",
         "stream": true
       }
     ]
@@ -10,7 +10,7 @@
   "music.a_star": {
     "sounds": [
       {
-        "name": "gempowered:music/custom/a_star",
+        "name": "music/custom/a_star",
         "stream": true
       }
     ]
@@ -18,7 +18,7 @@
   "music.for_her": {
     "sounds": [
       {
-        "name": "gempowered:music/custom/for_her",
+        "name": "music/custom/for_her",
         "stream": true
       }
     ]
@@ -26,7 +26,7 @@
   "music.feeling_blue": {
     "sounds": [
       {
-        "name": "gempowered:music/custom/feeling_blue",
+        "name": "music/custom/feeling_blue",
         "stream": true
       }
     ]
