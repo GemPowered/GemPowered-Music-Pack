@@ -13,7 +13,7 @@ jobs:
       - name: Set Commit Version
         run: |
           cd source
-          sed "s/{commit}/`git rev-parse HEAD`/g" pack.mcmeta > pack.mcmeta.tmp && mv pack.mcmeta.tmp pack.mcmeta
+          sed "s/{commit}/`git rev-parse HEAD --short 7`/g" pack.mcmeta > pack.mcmeta.tmp && mv pack.mcmeta.tmp pack.mcmeta
           cd ../
 
       - name: Pack Source
@@ -26,4 +26,4 @@ jobs:
         name: Upload GemPowered-Music.zip
         with:
           name: GemPowered-Music.zip
-          path: /source/
+          path: source/
