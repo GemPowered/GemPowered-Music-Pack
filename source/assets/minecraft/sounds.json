@@ -181,74 +181,74 @@
       {
         "name": "music.dad_museum",
         "type": "event",
-        "volume": 0.22,
+        "volume": 0.2,
         "weight": 2
       },
       {
         "name": "music.futurisms",
         "type": "event",
-        "volume": 0.22
+        "volume": 0.2
       },
       {
         "name": "music.rose_theme",
         "type": "event",
-        "volume": 0.22
+        "volume": 0.2
       },
       {
         "name": "music.pearl_theme",
         "type": "event",
-        "volume": 0.22
+        "volume": 0.2
       },
       {
         "name": "music.music.pearl_theme_remix",
         "type": "event",
-        "volume": 0.22
+        "volume": 0.2
       },
       {
         "name": "music.amalgam",
         "type": "event",
-        "volume": 0.22
+        "volume": 0.2
       },
       {
         "name": "music.smokey_sardonyx",
         "type": "event",
-        "volume": 0.22
+        "volume": 0.2
       },
       {
         "name": "music.hit_diamond",
         "type": "event",
-        "volume": 0.22
+        "volume": 0.2
       },
       {
         "name": "music.young_gems",
         "type": "event",
-        "volume": 0.22,
+        "volume": 0.2,
         "weight": 2
       },
       {
         "name": "music.sax_sugalite",
         "type": "event",
-        "volume": 0.22
+        "volume": 0.2
       },
       {
         "name": "music.sax_opal",
         "type": "event",
-        "volume": 0.22
+        "volume": 0.2
       },
       {
         "name": "music.sax_alexandrite",
         "type": "event",
-        "volume": 0.22
+        "volume": 0.2
       },
       {
         "name": "music.alexandrite",
         "type": "event",
-        "volume": 0.22
+        "volume": 0.2
       },
       {
         "name": "music.night_drive",
         "type": "event",
-        "volume": 0.22
+        "volume": 0.2
       }
     ]
   },
@@ -258,7 +258,7 @@
       {
         "name": "music.mirror_gem",
         "type": "event",
-        "volume": 0.22
+        "volume": 0.2
       }
     ]
   },
