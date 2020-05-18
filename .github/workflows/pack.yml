@@ -8,7 +8,10 @@ jobs:
 
     steps:
     - name: Pack Source
-      run: zip -r GemPowered-Music.zip source/*
+      run: |
+        cd source/
+        zip -r ../GemPowered-Music.zip -i *
+        cd ../
     
     - uses: actions/upload-artifact@v2
       name: Upload sys-clk-Overlay.ovl
