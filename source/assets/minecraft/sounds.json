@@ -1,0 +1,134 @@
+{
+  "music.mirror_match": {
+    "sounds": [
+      {
+        "name": "gempowered:music/custom/mirror_match",
+        "stream": true
+      }
+    ]
+  },
+  "music.a_star": {
+    "sounds": [
+      {
+        "name": "gempowered:music/custom/a_star",
+        "stream": true
+      }
+    ]
+  },
+  "music.for_her": {
+    "sounds": [
+      {
+        "name": "gempowered:music/custom/for_her",
+        "stream": true
+      }
+    ]
+  },
+  "music.feeling_blue": {
+    "sounds": [
+      {
+        "name": "gempowered:music/custom/feeling_blue",
+        "stream": true
+      }
+    ]
+  },
+  "music.dragon": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "music/game/pearl_vs_peridot",
+        "stream": true,
+        "volume": 0.5
+      },
+      {
+        "name": "music/custom/mirror_match",
+        "stream": true,
+        "volume": 0.5
+      }
+    ]
+  },
+  "music.game": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "music/game/rose",
+        "stream": true,
+        "volume": 0.22
+      },
+      {
+        "name": "music/game/pearl1",
+        "stream": true,
+        "volume": 0.22
+      },
+      {
+        "name": "music/game/pearl2",
+        "stream": true,
+        "volume": 0.22
+      },
+      {
+        "name": "music/game/amalgam",
+        "stream": true,
+        "volume": 0.22
+      },
+      {
+        "name": "music/game/smokey_sardonyx",
+        "stream": true,
+        "volume": 0.22
+      },
+      {
+        "name": "music/game/hit_diamond",
+        "stream": true,
+        "volume": 0.22
+      },
+      {
+        "name": "music/game/fusion_sardonyx",
+        "stream": true,
+        "volume": 0.22
+      },
+      {
+        "name": "music/game/young_gems",
+        "stream": true,
+        "volume": 0.22
+      },
+      {
+        "name": "music/game/sax_sugalite",
+        "stream": true,
+        "volume": 0.22
+      },
+      {
+        "name": "music/game/sax_opal",
+        "stream": true,
+        "volume": 0.22
+      },
+      {
+        "name": "music/game/sax_alexandrite",
+        "stream": true,
+        "volume": 0.22
+      },
+      {
+        "name": "music/game/alexandrite",
+        "stream": true,
+        "volume": 0.22
+      },
+      {
+        "name": "music/game/reunion",
+        "stream": true,
+        "volume": 0.22
+      },
+      {
+        "name": "music/game/night_drive",
+        "stream": true,
+        "volume": 0.22
+      }
+    ]
+  },
+  "music.under_water": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "music/game/mirror_gem",
+        "stream": true,
+        "volume": 0.22
+      }
+    ]
+  }
+}
