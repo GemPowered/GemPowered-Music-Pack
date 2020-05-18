@@ -80,8 +80,7 @@
       {
         "name": "music/gempowered/futurisms",
         "stream": true,
-        "volume": 0.22,
-        "weight": 2
+        "volume": 0.22
       },
       {
         "name": "music/gempowered/rose",
@@ -116,7 +115,8 @@
       {
         "name": "music/gempowered/young_gems",
         "stream": true,
-        "volume": 0.22
+        "volume": 0.22,
+        "weight": 2
       },
       {
         "name": "music/gempowered/sax_sugalite",
