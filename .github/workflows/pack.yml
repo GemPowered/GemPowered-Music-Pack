@@ -10,6 +10,12 @@ jobs:
       - name: Checkout Repo
         uses: actions/checkout@v2
 
+      - name: Set Commit Version
+        run: |
+          cd source
+          sed "s/{commit}/`git rev-parse HEAD`/g" test.json > pack.mcmeta.tmp && mv pack.mcmeta.tmp pack.mcmeta
+          cd../
+
       - name: Pack Source
         run: |
           cd source
