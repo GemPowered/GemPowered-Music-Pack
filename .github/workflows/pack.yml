@@ -7,17 +7,17 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout Repo
-      uses: actions/checkout@v2
-      
-    - name: Pack Source
-      run: |
-        cd source/
-        zip -r ../GemPowered-Music.zip -i *
-        cd ../
-    
-    - uses: actions/upload-artifact@v2
-      name: Upload sys-clk-Overlay.ovl
-      with:
-        name: GemPowered-Music.zip
-        path: GemPowered-Music.ovl
+      - name: Checkout Repo
+        uses: actions/checkout@v2
+
+      - name: Pack Source
+        run: |
+          cd source
+          zip -r ../GemPowered-Music.zip *
+          cd ../
+
+      - uses: actions/upload-artifact@v2
+        name: Upload GemPowered-Music.zip
+        with:
+          name: GemPowered-Music.zip
+          path: GemPowered-Music.zip
