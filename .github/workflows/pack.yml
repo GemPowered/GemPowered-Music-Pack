@@ -14,7 +14,7 @@ jobs:
         run: |
           cd source
           sed "s/{commit}/`git rev-parse HEAD`/g" pack.mcmeta > pack.mcmeta.tmp && mv pack.mcmeta.tmp pack.mcmeta
-          cd../
+          cd ../
 
       - name: Pack Source
         run: |
