@@ -9,9 +9,7 @@ jobs:
     steps:
     - name: Pack Source
       run: |
-        cd source/
-        zip -r ../GemPowered-Music.zip -i *
-        cd ../
+        ls
     
     - uses: actions/upload-artifact@v2
       name: Upload sys-clk-Overlay.ovl
