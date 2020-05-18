@@ -1,0 +1,23 @@
+name: Pack
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v2
+
+      - name: Pack Source
+        run: |
+          cd source
+          zip -9 -r ../GemPowered-Music.zip *
+          cd ../
+
+      - uses: actions/upload-artifact@v2
+        name: Upload GemPowered-Music.zip
+        with:
+          name: GemPowered-Music.zip
+          path: GemPowered-Music.zip
