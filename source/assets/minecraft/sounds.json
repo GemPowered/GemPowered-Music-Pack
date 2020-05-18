@@ -1,19 +1,9 @@
 {
-  "music.mirror_match": {
-    "sounds": [
-      {
-        "name": "music/gempowered/mirror_match",
-        "stream": true,
-        "volume": 0.5
-      }
-    ]
-  },
   "music.a_star": {
     "sounds": [
       {
         "name": "music/gempowered/a_star",
-        "stream": true,
-        "volume": 0.5
+        "stream": true
       }
     ]
   },
@@ -21,8 +11,7 @@
     "sounds": [
       {
         "name": "music/gempowered/for_her",
-        "stream": true,
-        "volume": 0.5
+        "stream": true
       }
     ]
   },
@@ -30,23 +19,7 @@
     "sounds": [
       {
         "name": "music/gempowered/feeling_blue",
-        "stream": true,
-        "volume": 0.5
-      }
-    ]
-  },
-  "music.dragon": {
-    "replace": true,
-    "sounds": [
-      {
-        "name": "music/gempowered/pearl_vs_peridot",
-        "stream": true,
-        "volume": 0.5
-      },
-      {
-        "name": "music/gempowered/mirror_match",
-        "stream": true,
-        "volume": 0.5
+        "stream": true
       }
     ]
   },
@@ -54,8 +27,7 @@
     "sounds": [
       {
         "name": "music/gempowered/reunion",
-        "stream": true,
-        "volume": 0.5
+        "stream": true
       }
     ]
   },
@@ -63,8 +35,143 @@
     "sounds": [
       {
         "name": "music/gempowered/fusion_sardonyx",
-        "stream": true,
-        "volume": 0.5
+        "stream": true
+      }
+    ]
+  },
+  "music.dad_museum": {
+    "sounds": [
+      {
+        "name": "music/gempowered/dad_museum",
+        "stream": true
+      }
+    ]
+  },
+  "music.futurisms": {
+    "sounds": [
+      {
+        "name": "music/gempowered/futurisms",
+        "stream": true
+      }
+    ]
+  },
+  "music.rose_theme": {
+    "sounds": [
+      {
+        "name": "music/gempowered/rose_theme",
+        "stream": true
+      }
+    ]
+  },
+  "music.pearl_theme": {
+    "sounds": [
+      {
+        "name": "music/gempowered/pearl_theme",
+        "stream": true
+      }
+    ]
+  },
+  "music.pearl_theme_remix": {
+    "sounds": [
+      {
+        "name": "music/gempowered/pearl_theme_remix",
+        "stream": true
+      }
+    ]
+  },
+  "music.amalgam": {
+    "sounds": [
+      {
+        "name": "music/gempowered/amalgam",
+        "stream": true
+      }
+    ]
+  },
+  "music.smokey_sardonyx": {
+    "sounds": [
+      {
+        "name": "music/gempowered/smokey_sardonyx",
+        "stream": true
+      }
+    ]
+  },
+  "music.hit_diamond": {
+    "sounds": [
+      {
+        "name": "music/gempowered/hit_diamond",
+        "stream": true
+      }
+    ]
+  },
+  "music.young_gems": {
+    "sounds": [
+      {
+        "name": "music/gempowered/young_gems",
+        "stream": true
+      }
+    ]
+  },
+  "music.sax_sugalite": {
+    "sounds": [
+      {
+        "name": "music/gempowered/sax_sugalite",
+        "stream": true
+      }
+    ]
+  },
+  "music.sax_opal": {
+    "sounds": [
+      {
+        "name": "music/gempowered/sax_opal",
+        "stream": true
+      }
+    ]
+  },
+  "music.sax_alexandrite": {
+    "sounds": [
+      {
+        "name": "music/gempowered/sax_alexandrite",
+        "stream": true
+      }
+    ]
+  },
+  "music.alexandrite": {
+    "sounds": [
+      {
+        "name": "music/gempowered/alexandrite",
+        "stream": true
+      }
+    ]
+  },
+  "music.night_drive": {
+    "sounds": [
+      {
+        "name": "music/gempowered/night_drive",
+        "stream": true
+      }
+    ]
+  },
+  "music.mirror_gem": {
+    "sounds": [
+      {
+        "name": "music/gempowered/mirror_gem",
+        "stream": true
+      }
+    ]
+  },
+  "music.pearl_vs_peridot": {
+    "sounds": [
+      {
+        "name": "music/gempowered/pearl_vs_peridot",
+        "stream": true
+      }
+    ]
+  },
+  "music.mirror_match": {
+    "sounds": [
+      {
+        "name": "music/gempowered/mirror_match",
+        "stream": true
       }
     ]
   },
@@ -72,75 +179,75 @@
     "replace": true,
     "sounds": [
       {
-        "name": "music/gempowered/dad_museum",
-        "stream": true,
+        "name": "music.dad_museum",
+        "type": "event",
         "volume": 0.22,
         "weight": 2
       },
       {
-        "name": "music/gempowered/futurisms",
-        "stream": true,
+        "name": "music.futurisms",
+        "type": "event",
         "volume": 0.22
       },
       {
-        "name": "music/gempowered/rose",
-        "stream": true,
+        "name": "music.rose_theme",
+        "type": "event",
         "volume": 0.22
       },
       {
-        "name": "music/gempowered/pearl1",
-        "stream": true,
+        "name": "music.pearl_theme",
+        "type": "event",
         "volume": 0.22
       },
       {
-        "name": "music/gempowered/pearl2",
-        "stream": true,
+        "name": "music.music.pearl_theme_remix",
+        "type": "event",
         "volume": 0.22
       },
       {
-        "name": "music/gempowered/amalgam",
-        "stream": true,
+        "name": "music.amalgam",
+        "type": "event",
         "volume": 0.22
       },
       {
-        "name": "music/gempowered/smokey_sardonyx",
-        "stream": true,
+        "name": "music.smokey_sardonyx",
+        "type": "event",
         "volume": 0.22
       },
       {
-        "name": "music/gempowered/hit_diamond",
-        "stream": true,
+        "name": "music.hit_diamond",
+        "type": "event",
         "volume": 0.22
       },
       {
-        "name": "music/gempowered/young_gems",
-        "stream": true,
+        "name": "music.young_gems",
+        "type": "event",
         "volume": 0.22,
         "weight": 2
       },
       {
-        "name": "music/gempowered/sax_sugalite",
-        "stream": true,
+        "name": "music.sax_sugalite",
+        "type": "event",
         "volume": 0.22
       },
       {
-        "name": "music/gempowered/sax_opal",
-        "stream": true,
+        "name": "music.sax_opal",
+        "type": "event",
         "volume": 0.22
       },
       {
-        "name": "music/gempowered/sax_alexandrite",
-        "stream": true,
+        "name": "music.sax_alexandrite",
+        "type": "event",
         "volume": 0.22
       },
       {
-        "name": "music/gempowered/alexandrite",
-        "stream": true,
+        "name": "music.alexandrite",
+        "type": "event",
         "volume": 0.22
       },
       {
-        "name": "music/gempowered/night_drive",
-        "stream": true,
+        "name": "music.night_drive",
+        "type": "event",
         "volume": 0.22
       }
     ]
@@ -149,9 +256,24 @@
     "replace": true,
     "sounds": [
       {
-        "name": "music/gempowered/mirror_gem",
-        "stream": true,
+        "name": "music.mirror_gem",
+        "type": "event",
         "volume": 0.22
+      }
+    ]
+  },
+  "music.dragon": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "music.pearl_vs_peridot",
+        "type": "event",
+        "volume": 0.5
+      },
+      {
+        "name": "music.mirror_match",
+        "type": "event",
+        "volume": 0.5
       }
     ]
   }
