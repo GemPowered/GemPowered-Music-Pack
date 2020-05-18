@@ -1,0 +1,17 @@
+name: Pack
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Pack Source
+      run: zip -r GemPowered-Music.zip source/*
+    
+    - uses: actions/upload-artifact@v2
+      name: Upload sys-clk-Overlay.ovl
+      with:
+        name: GemPowered-Music.zip
+        path: GemPowered-Music.ovl
