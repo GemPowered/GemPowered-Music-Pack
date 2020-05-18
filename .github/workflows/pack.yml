@@ -13,7 +13,7 @@ jobs:
       - name: Pack Source
         run: |
           cd source
-          zip -r ../GemPowered-Music.zip *
+          zip -9 -r ../GemPowered-Music.zip *
           cd ../
 
       - uses: actions/upload-artifact@v2
