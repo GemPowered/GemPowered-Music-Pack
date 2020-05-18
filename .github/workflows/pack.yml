@@ -26,4 +26,4 @@ jobs:
         name: Upload GemPowered-Music.zip
         with:
           name: GemPowered-Music.zip
-          path: GemPowered-Music.zip
+          path: /source/
