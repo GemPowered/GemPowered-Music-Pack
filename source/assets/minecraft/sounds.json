@@ -2,32 +2,36 @@
   "music.mirror_match": {
     "sounds": [
       {
-        "name": "music/custom/mirror_match",
-        "stream": true
+        "name": "music/gempowered/mirror_match",
+        "stream": true,
+        "volume": 0.5
       }
     ]
   },
   "music.a_star": {
     "sounds": [
       {
-        "name": "music/custom/a_star",
-        "stream": true
+        "name": "music/gempowered/a_star",
+        "stream": true,
+        "volume": 0.5
       }
     ]
   },
   "music.for_her": {
     "sounds": [
       {
-        "name": "music/custom/for_her",
-        "stream": true
+        "name": "music/gempowered/for_her",
+        "stream": true,
+        "volume": 0.5
       }
     ]
   },
   "music.feeling_blue": {
     "sounds": [
       {
-        "name": "music/custom/feeling_blue",
-        "stream": true
+        "name": "music/gempowered/feeling_blue",
+        "stream": true,
+        "volume": 0.5
       }
     ]
   },
@@ -35,12 +39,30 @@
     "replace": true,
     "sounds": [
       {
-        "name": "music/game/pearl_vs_peridot",
+        "name": "music/gempowered/pearl_vs_peridot",
         "stream": true,
         "volume": 0.5
       },
       {
-        "name": "music/custom/mirror_match",
+        "name": "music/gempowered/mirror_match",
+        "stream": true,
+        "volume": 0.5
+      }
+    ]
+  },
+  "music.reunion": {
+    "sounds": [
+      {
+        "name": "music/gempowered/reunion",
+        "stream": true,
+        "volume": 0.5
+      }
+    ]
+  },
+  "music.fusion_sardonyx": {
+    "sounds": [
+      {
+        "name": "music/gempowered/fusion_sardonyx",
         "stream": true,
         "volume": 0.5
       }
@@ -50,72 +72,74 @@
     "replace": true,
     "sounds": [
       {
-        "name": "music/game/rose",
+        "name": "music/gempowered/dad_museum",
+        "stream": true,
+        "volume": 0.22,
+        "weight": 2
+      },
+      {
+        "name": "music/gempowered/futurisms",
+        "stream": true,
+        "volume": 0.22,
+        "weight": 2
+      },
+      {
+        "name": "music/gempowered/rose",
         "stream": true,
         "volume": 0.22
       },
       {
-        "name": "music/game/pearl1",
+        "name": "music/gempowered/pearl1",
         "stream": true,
         "volume": 0.22
       },
       {
-        "name": "music/game/pearl2",
+        "name": "music/gempowered/pearl2",
         "stream": true,
         "volume": 0.22
       },
       {
-        "name": "music/game/amalgam",
+        "name": "music/gempowered/amalgam",
         "stream": true,
         "volume": 0.22
       },
       {
-        "name": "music/game/smokey_sardonyx",
+        "name": "music/gempowered/smokey_sardonyx",
         "stream": true,
         "volume": 0.22
       },
       {
-        "name": "music/game/hit_diamond",
+        "name": "music/gempowered/hit_diamond",
         "stream": true,
         "volume": 0.22
       },
       {
-        "name": "music/game/fusion_sardonyx",
+        "name": "music/gempowered/young_gems",
         "stream": true,
         "volume": 0.22
       },
       {
-        "name": "music/game/young_gems",
+        "name": "music/gempowered/sax_sugalite",
         "stream": true,
         "volume": 0.22
       },
       {
-        "name": "music/game/sax_sugalite",
+        "name": "music/gempowered/sax_opal",
         "stream": true,
         "volume": 0.22
       },
       {
-        "name": "music/game/sax_opal",
+        "name": "music/gempowered/sax_alexandrite",
         "stream": true,
         "volume": 0.22
       },
       {
-        "name": "music/game/sax_alexandrite",
+        "name": "music/gempowered/alexandrite",
         "stream": true,
         "volume": 0.22
       },
       {
-        "name": "music/game/alexandrite",
-        "stream": true,
-        "volume": 0.22
-      },
-      {
-        "name": "music/game/reunion",
-        "stream": true,
-        "volume": 0.22
-      },
-      {
-        "name": "music/game/night_drive",
+        "name": "music/gempowered/night_drive",
         "stream": true,
         "volume": 0.22
       }
@@ -125,7 +149,7 @@
     "replace": true,
     "sounds": [
       {
-        "name": "music/game/mirror_gem",
+        "name": "music/gempowered/mirror_gem",
         "stream": true,
         "volume": 0.22
       }
